@@ -1,0 +1,75 @@
+/* result.component.css */
+
+.result-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #d63c6f;
+    color: #f194ea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  
+  }
+  
+  button:disabled {
+    background-color: #8f6f6f;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #da6dfb;;
+  }
+  
+
+  /* Apply styles to the header */
+ 
+  
+  /* Apply styles to the content */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  
+    background: linear-gradient(to bottom, #666633 0%, #ff99cc 100%);
+  }
+  
+  /* Apply styles to the header */
+ 
+  
+  /* Apply styles to the content */
+  .content {
+    font-size: 18px;
+    color: #cd7209;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .container{
+    background-color: #ffcccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    width: 800px;
+  }
+  

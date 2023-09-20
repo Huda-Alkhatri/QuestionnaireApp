@@ -1,0 +1,29 @@
+
+
+
+<div class="home-container">
+   
+      <div class="container">
+    
+       
+        <div>
+            <h2 style="text-align: center; color:brown;">Question {{ currentQuestionIndex + 1 }}</h2>
+            <br><br><br><br>
+
+            <p style="color: rgba(139, 63, 6, 0.849);">{{ questions[currentQuestionIndex].text }}</p>
+            <div *ngFor="let option of questions[currentQuestionIndex].options">
+              <label style="color: rgb(124, 31, 5);" >
+                <input type="radio" [(ngModel)]="selectedOption" [value]="option">{{ option }}
+              </label>
+            </div>
+            <button [disabled]="selectedOption === undefined" (click)="nextQuestion()">Next</button>
+            
+        </div>
+    </div>
+      
+        
+       
+</div>
+ 
+  
+  

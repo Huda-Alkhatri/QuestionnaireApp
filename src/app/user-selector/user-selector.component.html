@@ -1,0 +1,21 @@
+
+
+  <div class="home-container">
+
+   
+    <div class="container">
+        <h2>Develop a Questionnaire Port</h2>
+        <p> This is a simple example of Questionnaire , please follow the questions and Answer it.s </p>
+     
+        <div>
+            <h2>Select User</h2>
+            <select [(ngModel)]="selectedUser">
+              <option *ngFor="let user of users" [value]="user.id">{{ user.name }}</option>
+            </select>
+            <button [disabled]="!selectedUser" (click)="startQuestionnaire()">Next</button>
+          </div>
+      </div>    
+    
+      
+     
+</div>
